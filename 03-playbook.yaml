@@ -4,9 +4,9 @@
   tasks:
   - name: install nginx
     ansible.builtin.pakage:
-    - name: nginx
+      name: nginx
       state: present
   - name: start the nginx
     anisible.builtin.service:
-    - name: nginx
+      name: nginx
       state: started
