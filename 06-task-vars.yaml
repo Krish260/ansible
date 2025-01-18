@@ -10,8 +10,8 @@
     vars:     #task level variable,accessable with only task.task level variable can overide play level variable.
       COURSE: ansible
     ansible.builtin.debug:
-       msg:"course is {{ COURSE }}, duration {{ DURATION }}, trainer is {{ TRAINER }}"
+       msg: "course is {{ COURSE }}, duration {{ DURATION }}, trainer is {{ TRAINER }}"
 
   - name: print the variable
     ansible.builtin.debug:
-       msg:"course is {{ COURSE }}, duration {{ DURATION }}, trainer is {{ TRAINER }}"     
+       msg: "course is {{ COURSE }}, duration {{ DURATION }}, trainer is {{ TRAINER }}"     
